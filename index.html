@@ -1,0 +1,1405 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>ITRAFFIC</title>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+	<link rel="stylesheet" href="css/fonts/fonts.css" />
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/animat/animate.min.css" />
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" href="css/themes/default/default.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
+	
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/page.css" />
+	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  
+	
+	<style>
+	.modal-window{
+		position:fixed;
+		background-color:rgba(200,200,200,0.75);
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		z-index:999;
+		opacity:0;
+		pointer-events:none;
+		-webkit-transition:all 0.3s;
+		transition:all 0.3s;
+	
+	}
+	
+	.modal-window:target{
+		opacity:1;
+		pointer-events:auto;
+	}
+	
+	.modal-window>div{
+		width:60%;
+		position:relative;
+		margin:10% auto;
+		padding:2rem;
+		background:#fff;
+		color:#444;
+		border-style: solid;
+		border-width: 5px;
+	}
+	
+	.modal-window header{
+		font-weight:bold;
+	}
+	
+	.modal-close{
+		color:#aaa
+		line-height: 70px;
+		font-size:100%;
+		position:absolute;
+		right:0;
+		text-align:right;
+		top:0;
+		width:300px;
+		text-decoration:none;
+	
+	}
+	
+	.modal-close:hover{
+		color:#000
+	}
+	
+	.modal-window h1{
+		font-size:150%;
+		margin:0 0 15px;
+		background-color: lightgray;
+	}
+	
+	.modal-window-head{
+		background-color: gray !important;
+		color: white;
+		text-align: center;
+	}
+	
+	
+	body{
+		background-repeat: no-repeat;
+		background-size: 150px 150px;
+	}
+	
+	
+	
+	
+	#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5e6c82;
+  color: white;
+}
+	
+.tickadd li.tick:before {
+  content: "\2713";
+  color: #20db20;
+  font-weight:bold;
+  font-size:25px;
+}
+	
+	</style>
+	
+	
+	
+</head>
+<body>
+
+	<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+	
+	<header id="home" class="header">
+		<div class="main_menu_bg navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="nave_menu">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="#">
+							<div class="logo">
+								<!--img src="images/logo.png" alt="" /-->
+							</div>
+						  </a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  
+						  <ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#home"><b>Home</b></a></li>
+							<li><a href="#abouts"><b>About</b></a></a></li>
+							<li><a href="#Domain"><b>Domain</b></a></a></li>
+							<li><a href="#Whatweachieved"><b>What we achieved?</b></a></li>
+							<li><a href="#Milestons"><b>Milestons</b></a></li>
+							<li><a href="#Documents"><b>Documents</b></a></li>
+							<li><a href="#Presentations"><b>Presentations</b></a></li>
+							<li><a href="#team"><b>Team</b></a></li>
+							
+							<li><a href="#contact"><b>Contact</b></a></li>
+							
+						  </ul>
+						</div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+					</div>	
+				</div><!--End of row -->
+				
+			</div><!--End of container -->
+			
+		</div>
+	</header> <!--End of header -->
+	
+	
+	
+	<section >
+		<div class="container">
+			<div class="row">
+				<!-- <div class="main_banner_area text-center"> -->
+					<!-- <div class="col-md-12 col-sm-12"> -->
+						<!-- <div class="single_banner_text" data-wow-duration="1.5s">
+						
+							
+						</div> -->
+
+					<!-- </div> -->
+
+					
+					
+					<div class="scrolldown">
+						<a href="#abouts" class="scroll_btn"></a>
+					</div>
+				<!-- </div> -->
+					<!-- <img src="Docs/appicon.png" alt=""></div> -->
+				
+				
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="abouts" class="abouts">
+		<div class="container">
+			<div class="row">
+				<div class="main_abouts_content">
+				<div style="width:20px">
+				</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInLeft" data-wow-duration="2s" style="padding-left:10%; width:100%">
+							<h2>ABOUT iTRAFFIC</h2>
+							<div class="separetor2"></div>
+							<p><b>ITRAFFIC</b> is a mobile application designed in the aim of reducing traffic in Sri Lanka.
+								This app is designed specifically for drivers and passengers, who can reach this destination quickly and safely without getting into traffic
+							</p>
+							
+							<!--a href="" class="btn pink-btn">LERAN MORE !</a-->
+						</div>
+					</div>
+					
+					
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInRight" data-wow-duration="2.5s" style="width:650px">
+							<img src="Docs/appicon.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="Domain" class="Domain">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
+					<p style="font-size:25px; color:black;">DOMAIN</p>
+					<div class="separetor"></div>
+					<p></p>
+				</div>
+				<div class="wedo_content_area">
+					
+					
+					
+					
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="1s" style="height:400px;">
+							<div class="single_left_icon">
+								<a href=""><i class="fa fa-car"></i></a>
+							</div>
+							
+							<div class="single_right_text" style="width:90%">
+								<h4>Literature Survey</h4>
+								<div class="separetor2"></div>
+								<p>Current knowledge including substantive findings and contributions</p>
+								<a href="#Literature" class="btn pink-btn"style="background-color:#909aaf">Read More..</a>
+								<div id="Literature" class="modal-window">
+								
+								
+								
+									<div style="overflow:scroll; height:600px;">
+										<a href="#modal-close" title="Close" class="modal-close" style="font-family: Arial; font-size:35px">&times;</a>
+											<h1 class="modal-window-head">LITERATURE SURVEY</h1>
+											<div>
+											<br>
+											
+											<ul class="tickadd">
+											 <li class="tick" style="font-size:20px"> <b>Automatic vehicle accident detection and messaging system using GSM and GPS modem</b> 
+												In this research paper they have described the way in which a traffic accident is diagnosed and how people are informed about the crash. They use the accelerometer as a car alarm application. Using that application System can detect danger drivers. And also they use as a rollover or a crash detector of a vehicle after an accident. The server identifies an accident using accelerometer signals. If vehicle met with an accident vibration sensors detect the signal and Micro electro mechanical system [MEM] will detect that vehicle rolls over or not. Then send a signal to ARM Controller. Using GSM Modem Microcontroller sends alerts about location to police, and rescue team. Once the message is received, a police vehicle can reach that location if there is a minor accident, the driver informs all relevant sections that the driver will not be in danger. So they can avoid wasting time. Their main technical components are Vibration sensors, Micro Electro Mechanical System (MEMS) accelerometer. In the future, they will use a Wi-Fi webcam based on the need to improve this system.</li><br>
+											<li class="tick" style="font-size:20px"><b>GPS and Map Matching Based Vehicle Accident detecting System</b>
+												In this research paper they have described how to diagnose a traffic accident based on GPS technology and how people are informed about that accident. They mainly focus about Speed, time and direction. Many lives could have been spared if emergency services could receive accident information timely. In here they use map matching algorithm and vehicle speed data and send accident location to an Alert service Center. The system gets speed and position in every 0.1s. Using above data map matching algorithm find if the vehicle is on the road. Every 01.s system compares previous speed and current speed using microcontroller unit. Once the speed falling down safe calculated speed system will identify it is accident situation. And also system checks if the vehicle is one the road using a map matching algorithm. From this way they can reduce generate wrong information. They send accident information using GSM networks to other parties. </li><br>
+											 <li class="tick" style="font-size:20px"><b>Accident detecting system using smart phones</b>
+												In this research paper they have described how to diagnose a traffic accident based on heart beat sensor base mobile phone technology. Once accident happened heart beat sensor measures him/her heart beat rate. Then after system will filter background noise and identify only sound of pulse. The microphone would need to be held near to the heart or somewhere and process audio signal. After counting the time between each pulse to get the pulse rate. Normal person’s heartbeat rate is 60 to 100 beats per minute (BPM). If there are any variations from normal heart beat system will identify that may be an accident or not. If not system prompted to respond by touch or voice. If the driver doesn’t response, system will generate SMS and send that message Emergency Service.</li><br>
+											 <li class="tick" style="font-size:20px"><b>GSM/GPS Assisted Road and Traffic Congestion Detection System</b>
+												With this system users can know the traffic condition on the road using GPS and GSM. So users can use alternative routes as well. So the speed sensor of vehicle a controller can get the current speed of the vehicle. When that speed falls below a present threshold the controller is informed the vehicle location. When such a vehicle speed decreasing happens in few vehicles white's locations are contiguous each other the controller identifies there is a traffic grid lock in that location. So then controller informs other users about the grid lock. Then they can use alternative routes to save their times.</li><br>
+											</ul>
+
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="2s" style="height:400px">
+							<div class="single_left_icon">
+								<a href=""><i class="fa fa-car"></i></a>
+							</div>
+							
+							<div class="single_right_text" style="width:100%">
+								<h4>RESEARCH GAP</h4>
+								<div class="separetor2"></div>
+								<p>Research problem which has not been answered appropriately</p>
+								<a href="#researchgap" class="btn pink-btn"style="background-color:#909aaf">Read More..</a>
+								<div id="researchgap" class="modal-window">
+									<div>
+										<a href="#modal-close" title="Close" class="modal-close" style="font-family: Arial; font-size:35px">&times;</a>
+											<h1 class="modal-window-head">RESEARCH GAP</h1>
+											<div>
+											<!----- start the code---->
+											
+											<table id="customers">
+												<tr>
+													<th>Features</th>
+													<th>Pick me</th>
+													<th>Google map</th>
+													<th>Proposed App</th>
+												</tr>
+											  <tr>
+												<td>Registering users</td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Show all the alternative roads to users</td>
+												<td></td>`
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Indicate the movement of the vehicle in the map</td>
+												<td></td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Ahead traffic situation</td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Search friends location</td>
+												<td></td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Send alerts to emergency numbers when a user met with an accident.</td>
+												<td></td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Send alerts to the drivers who use the same road that accident happened</td>
+												<td></td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											  <tr>
+												<td>Ahead weather forecast</td>
+												<td></td>
+												<td></td>
+												<td><span style='font-size:20px;'>&#10004;</span></td>
+											  </tr>
+											</table>
+											
+											<!--ENd the code-->
+											
+											
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="3s"style="height:400px">
+							<div class="single_left_icon">
+								<a href=""><i class="fa fa-car"></i></a>
+							</div>
+							
+							<div class="single_right_text" style="width:90%">
+								<h4>RESEARCH PROBLEM</h4>
+								<div class="separetor2"></div>
+								<p>The statement about area of concern and the condition to be improved</p>
+								<a href="#researchprob" class="btn pink-btn"style="background-color:#909aaf">Read More..</a>
+								<div id="researchprob" class="modal-window">
+									<div>
+										<a href="#modal-close" title="Close" class="modal-close" style="font-family: Arial; font-size:35px">&times;</a>
+											<h1 class="modal-window-head">RESEARCH PROBLEM</h1>
+											<div>
+											<br>
+											
+											<ul class="tickadd">
+											  <li class="tick" style="font-size:20px"> Traffic congestions at the busy city centers has been a major problem in most people day –to-day life.</li><br>
+											 <li class="tick" style="font-size:20px">  As the numbers of vehicles are increasing day by day this problem becomes more severe.</li><br>
+											 <li class="tick" style="font-size:20px">  One of the main reasons for this problem is the drivers are not aware of the traffic ahead.</li><br>
+											 <li class="tick" style="font-size:20px">  In some cases traffic congestions have been aroused due to the outdated traffic light systems.</li><br>
+											 <li class="tick" style="font-size:20px">  Another problem arises when an emergency vehicle(Ambulance) comes to a traffic jam there is no mechanism to get the priority to that vehicle.</li><br>
+											 <li class="tick" style="font-size:20px">  Using Mobile Phones is big issue while driving..</li><br>
+											</ul>
+
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="1s" style="height:400px">
+							<div class="single_left_icon">
+								<a href=""><i class="fa fa-car"></i></a>
+							</div>
+							
+							<div class="single_right_text" style="width:90%">
+								<h4>OBJECTIVES</h4>
+								<div class="separetor2"></div>
+								<p>Specific accomplishments to be achieved by the study</p>
+								<a href="#objectives" class="btn pink-btn"style="background-color:#909aaf">Read More..</a>
+								<div id="objectives" class="modal-window">
+									<div>
+										<a href="#modal-close" title="Close" class="modal-close" style="font-family: Arial; font-size:35px">&times;</a>
+											<h1 class="modal-window-head">RESEARCH OBJECTIVES</h1>
+											<h1>Main Objective</h1>
+											<div>
+											<ul class="tickadd">
+												<li class="tick" style="font-size:20px">  Make the entire process of memory forensics automated.</li><br>									
+												<li class="tick" style="font-size:20px">  Prediction of the likelihood of the occurrence of an accident.</li><br>									
+											</ul>
+											</div>
+											<br>
+											<br>
+											<h1>Specific Objectives</h1>
+											<div>
+												
+											<ul class="tickadd">
+											  <li class="tick" style="font-size:20px">  Real-time and accurate traffic visualization. </li><br>
+											 <li class="tick" style="font-size:20px">  Development of mobile application facilitating crowdsourcing.</li><br>
+											 <li class="tick" style="font-size:20px"> Alternate path suggestions based on weather and traffic data.</li><br>
+											 <li class="tick" style="font-size:20px">  Implementation of lightweight security algorithm for data protection.</li><br>
+									
+											</ul>											
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="2s" style="height:400px">
+							<div class="single_left_icon">
+								<a href=""><i class="fa fa-car"></i></a>
+							</div>
+							
+							<div class="single_right_text" style="width:90%">
+								<h4>METHODOLOGY</h4>
+								<div class="separetor2"></div>
+								<p>Systematic plan of the research</p>
+								<a href="#methodology" class="btn pink-btn"style="background-color:#909aaf">Read More..</a>
+								<div id="methodology" class="modal-window" style="justify-content:center">
+									<div style="overflow:scroll; height:600px">
+										<a href="#modal-close" title="Close" class="modal-close" style="font-family: Arial; font-size:35px">&times;</a>
+											<h1 class="modal-window-head">METHODOLOGY</h1>
+											<div>
+											
+												<a target="_blank" href="images/1stStep.jpg">
+												  <img src="images/Methodology_img.jpg" alt="Forest" width="700" height="350">
+												</a>
+											</div>	
+											<div>
+											
+												<a target="_blank" href="images/2ndStep.jpg">
+												  <img src="images/Ambulence_methodolgoy.png" alt="Forest" width="650" height="280">
+												</a>
+											</div>	
+											<div>
+											
+												<a target="_blank" href="images/3rdStep.jpg">
+												  <img src="images/Communication_two.png" alt="Forest" width="650" height="280">
+												</a>
+											</div>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="3s" style="height:400px">
+							<div class="single_left_icon">
+								<a href=""><i class="fa fa-car"></i></a>
+							</div>
+							
+							<div class="single_right_text"style="width:90%">
+								<h4>TECHNOLOGY USED</h4>
+								<div class="separetor2"></div>
+								<p>The technologies used in the research</p>
+								<a href="#techused" class="btn pink-btn"style="background-color:#909aaf">Read More..</a>
+								<div id="techused" class="modal-window">
+									<div style="overflow:scroll; height:600px">
+										<a href="#modal-close" title="Close" class="modal-close" style="font-family: Arial; font-size:35px">&times;</a>
+											<h1 class="modal-window-head">TECHNOLOGY USED</h1>
+											<h1>Tools</h1>
+											<div>
+											<ul class="tickadd">
+											<li class="tick" style="font-size:20px">  Visual Stduio Code</li><br>
+											<li class="tick" style="font-size:20px"> Postman</li><br>
+											<li class="tick" style="font-size:20px"> Arduino IDE</li><br>
+											<li class="tick" style="font-size:20px"> Arduino Stduio</li><br>
+											</ul>
+											</div>
+											<br>
+											<br>
+											<h1>Technologies</h1>
+											<div>
+
+											<ul class="tickadd">
+											  <li class="tick" style="font-size:20px">  Web development technologies - HTML5,CSS,JavaScript,Jquery,Ajax and PHP Framework</li><br>
+											 <li class="tick" style="font-size:20px">  Arudino - C progrmming languge</li><br>
+											 <li class="tick" style="font-size:20px">  GSM Module,GPS Receiver</li><br>
+											 <li class="tick" style="font-size:20px">  Mobile Application -Java</li><br>
+									
+											</ul>											
+											</div>
+											
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="Whatweachieved" class="counterUp">
+	
+			<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
+			<br>
+					<p style="color:white; font-size:25px;">WHAT WE ACHIEVED?</p>
+					<div class="separetor"></div>
+		</div>
+	
+
+		<div class="counter_overlay">
+			<div class="container">
+				<div class="row">
+					<div class="main_counter_content">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="1.8s">
+								<h4><i class="fa fa-car"></i><span class="static-counter">90%</span></h4>
+								<p style="font-size:22px">Acheived Best Security Method</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.1s">
+								<h4><i class="fa fa-car"></i><span class="static-counter">95%</span></h4>
+								<p style="font-size:22px">Map Matching Algorithm Accuracy</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.4s">
+								<h4><i class="fa fa-car"></i><span class="static-counter">93%</span></h4>
+								<p style="font-size:22px">GPS Receivers and tracker components</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.8s">
+								<h4><i class="fa fa-car"></i><span class="static-counter">95%</span></h4>
+								<p style="font-size:22px">Predict weathers and alterntive paths suggestions</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!-----    Milestones start----->	
+	<section id="Milestons" class="">
+		
+		<section class="cd-timeline js-cd-timeline" style="  background-image: url("images/milestons.jpg");">
+		
+		
+		<div class="container container--lg cd-timeline__container">
+		<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
+		<p style="color:black; font-size:25px;">MILESTONS</p>
+		</div>
+		<div class="separetor"></div>
+		<br>
+		<br>
+			
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--picture">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component" >
+					<p style="font-size:20px"><a href="#preassessment" style="cursor: pointer"> Project pre-assessment</a></p>
+					<p class="text--subtle">
+						Assessment Type: Group<br>
+						Marks Allocation: None <br>
+					</p>
+
+					<div class="flex flex--space-between flex--center-y">
+						<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">1st Aug 2019</span>
+					</div>
+				</div> 
+			</div> 
+
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--movie">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div>
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#projectcharter" style="cursor: pointer"> Project Charter</a></p>
+					<p class="text--subtle">
+						Assignment Type: Group<br>
+						Marks Allocation: None <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">14th Aug 2018</span>
+				  </div>
+				</div> 
+			</div> 
+
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--picture">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+					<div class="cd-timeline__content text-component">
+						<p style="font-size:20px"><a href="#proposalpre" style="cursor: pointer"> Project Proposal Presentation</a></p>
+						<p class="text--subtle">
+							Assignment Type: Individual<br>
+							Marks Allocation: 5% <br>
+						</p>
+					<div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">10th Sep 2018</span>
+				  </div>
+				</div> 
+			</div> 
+			
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--location">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#projectproposal" style="cursor: pointer"> Project Proposal Report</a></p>
+					<p class="text--subtle">
+							Assignment Type: Group<br>
+							Marks Allocation: 5% <br>
+					</p>
+					<div class="flex flex--space-between flex--center-y">
+						<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">7th Oct 2018</span>	
+					</div>
+				</div> 
+			</div> 
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--location">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#ppr" style="cursor: pointer"> Preliminary Progress Review</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 6% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">1st Oct 2018</span>
+				  </div>
+				</div> 
+			</div> 
+
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--movie">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#" style="cursor: pointer"> Project Status Document</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 1% <br>
+					</p>
+					<div class="flex flex--space-between flex--center-y">
+						<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">1st Oct 2018</span>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--picture">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#pp1" style="cursor: pointer"> Progress Presentation (50%)</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 10% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">23rd Jan 2019</span>
+				  </div>
+				</div> 
+			</div> 
+
+			<div class="cd-timeline__block">
+					<div class="cd-timeline__img cd-timeline__img--picture">
+						<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+					</div> 
+					<div class="cd-timeline__content text-component">
+						<p style="font-size:20px"><a href="#pp2" style="cursor: pointer"> Progress Presentation II (90%)</a></p>
+						<p class="text--subtle">
+							Assignment Type: Individual<br>
+							Marks Allocation: 18% <br>
+						</p>
+					  <div class="flex flex--space-between flex--center-y">
+						<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">4th April 2019</span>
+					  </div>
+					</div> 
+				</div> 
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--movie">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#researchpaper" style="cursor: pointer"> Research Paper</a></p>
+					<p class="text--subtle">
+						Assignment Type: Group<br>
+						Marks Allocation: 10% <br>
+					</p>			
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">11th March 2019</span>
+				  </div>
+				</div> 
+			</div> 
+			
+			
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--picture">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#pp2" style="cursor: pointer"> Progress Presentation II (90%)</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 18% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">4th April 2019</span>
+				  </div>
+				</div> 
+			</div> 
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--movie">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#" style="cursor: pointer"> Website Assessment</a></p>
+					<p class="text--subtle">
+						Assignment Type: Group<br>
+						Marks Allocation: 3% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">13th May 2019</span>
+				  </div>
+				</div> 
+			</div> 
+			
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--picture">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#finalreport" style="cursor: pointer"> Final Report</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 15% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">16th May 2019</span>
+				  </div>
+				</div> 
+			</div> 
+
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--movie">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#finalpre" style="cursor: pointer"> Final Presentation</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 10% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">19th June 2019</span>
+				  </div>
+				</div> 
+			</div> 
+			
+			<div class="cd-timeline__block">
+				<div class="cd-timeline__img cd-timeline__img--picture">
+					<img src="assets/img/cd-icon-picture.svg" alt="Picture">
+				</div> 
+				<div class="cd-timeline__content text-component">
+					<p style="font-size:20px"><a href="#" style="cursor: pointer"> Final Viva</a></p>
+					<p class="text--subtle">
+						Assignment Type: Individual<br>
+						Marks Allocation: 15% <br>
+					</p>
+				  <div class="flex flex--space-between flex--center-y">
+					<span class="cd-timeline__date" style="color:#4b4d4f; font-size:20px">19th June 2019</span>
+				  </div>
+				</div> 
+			</div>
+			
+			
+			
+		</div>
+	</section> 
+  <script src="assets/js/main.js"></script>
+		
+	</section>
+	
+	
+	<br>
+	<br>
+	
+	<section id="Documents">
+			<div class="container">
+				<div class="row">
+				
+					<div class="head_title text-center wow slideInDown" data-wow-duration="0.5s">
+						<p style="font-size:25px; color:black;">DOCUMENTS</p>
+						<div class="separetor"></div>
+						<p>All the documents can be downloaded from here!</p>
+					</div>
+					
+					
+					<div class="pricing_content_area choose_pricing_content_area text-center">
+					
+					    <div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="1s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+
+									<div class="single_featured wow fadeIn" id="preassessment" data-wow-duration="0.5s">
+										<img src="images/preAssessment.png" alt="" style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 100px">
+												<div class="list-type1">
+												<ol>
+													<li><a href="Docs/PreAssesment.pdf" downloaded><b>Download</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+									
+									<!--a href="" class="btn btn-lg">DOWNLOAD</a-->
+								</div>
+							</div>
+						</div>
+						
+					    <div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="1.5s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+								
+									<div class="single_featured wow fadeIn" id="projectcharter" data-wow-duration=".5s">
+										<img src="images/projectCharter.png" alt="" style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 100px">
+												<div class="list-type1">
+												<ol>
+													<li><a href="Docs/ProjectCharter.pdf" downloaded><b>Download</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						
+					    <div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="2s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+								
+								<div class="single_featured wow fadeIn" id="projectproposal" data-wow-duration=".5s">
+										<img src="images/projectProposal.png" alt="" style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 100px">
+												<div class="list-type1">
+												<ol>
+													<li><a href="Docs/ProjectProposal.pdf" downloaded><b>Download</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="2.5s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+								
+									<div class="single_featured wow fadeIn" id="ppr" data-wow-duration=".5s">
+										<img src="images/ppr.png" alt="" style="width:250px"/>
+										<div class="featured_overlay">
+											<div class="overlay_content">
+												<div class="list-type1">
+												<ol>
+													<li><a href="Docs/Group_19-127_SRS.pdf" downloaded><b>Group</b></a></li>
+													<li><a href="Docs/Kavindu/IT16008106_SRS.pdf" downloaded><b>Kavindu Geesara</b></a></li>
+													<li><a href="Docs/Savidya/IT1648638_PPR.pdf" downloaded><b>Savidya Wijewickrama</b></a></li>
+													<li><a href="Docs/Nipun/IT16119390_SRS.pdf" downloaded><b>Nipun Sachinthana</b></a></li>
+													<li><a href="Docs/Kaveen/IT16145276_SRS.pdf" downloaded><b>Kaveen Gunawardhane</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>	
+
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="1s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+								
+								<div class="single_featured wow fadeIn" id="researchpaper" data-wow-duration=".5s">
+										<img src="images/ResearchPaper.png" alt="" style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 100px">
+												<div class="list-type1">
+												<ol>
+													<li><a href="Docs/researchPaper.pdf" downloaded><b>Download</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>	
+	
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="1.5s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+								
+								<div class="single_featured wow fadeIn" id="finalreport" data-wow-duration=".5s">
+										<img src="images/finalReport.png" alt="" style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 100px">
+												<div class="list-type1">
+												<ol>
+													<li><a href="" downloaded><b>Download</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>	
+
+								</div>
+							</div>
+						</div>
+					   
+					</div>
+				</div>
+			</div>
+		</section><!-- End of choose Pricing Section -->
+	<br>
+	<br>
+
+	
+	
+	
+	
+	<!--  Presentations-->
+	
+	<section id="Presentations">
+			<div class="container">
+				<div class="row">
+				
+					<div class="head_title text-center wow slideInDown" data-wow-duration="0.3s">
+						<!-- <p style="font-size:25px; color:black;">PRESENTATIONS</p> -->
+						<div class="separetor"></div>
+						<!-- <p>All the presentations can be downloaded from here!</p> -->
+					</div>
+					<div class="pricing_content_area choose_pricing_content_area text-center">
+					
+					    <div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="1s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+		
+									<div class="single_featured wow fadeIn" id="proposalpre" data-wow-duration=".5s">
+										<img src="images/proposalPre.png" alt=""style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 70px">
+												<div class="list-type1">
+												<ol>
+													<li><a href="Docs/projectProposalPresenatation.pdf" downloaded><b>Download</b></a></li>
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>	
+		
+		
+		
+								</div>
+							</div>
+						</div>
+						
+						
+					    <div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="head_title text-center wow zoomIn" data-wow-duration="1.5s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+		
+									<div class="single_featured wow fadeIn" id="pp1" data-wow-duration=".5s">
+										<img src="images/50pre.png" alt=""style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 70px">
+												<div class="list-type1">
+												<ol>
+													<!-- <li><a href="Docs/PP1.pdf" downloaded><b>Download</b></a></li> -->
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>	
+		
+		
+		
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="head_title text-center wow zoomIn" data-wow-duration="2s">
+									<!--h3>Casual</h3-->
+									<div class="choose_pricing_text">
+			
+										<div class="single_featured wow fadeIn" id="pp2" data-wow-duration=".5s">
+											<img src="images/90pre.png" alt=""style="width:250px"/>
+											<div class="featured_overlay" >
+												<div class="overlay_content" style="margin-top: 60px">
+													<div class="list-type1">
+													<ol>
+														<!-- s><a href="Docs/90presentation.pdf" downloaded><b>Poster</b></a></li> -->
+													</ol>
+													</div>
+												</div>
+											</div>
+										</div>	
+			
+			
+			
+									</div>
+								</div>
+							</div>
+							
+						
+					    <!-- / -->
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="head_title text-center wow zoomIn" data-wow-duration="2.5s">
+								<!--h3>Casual</h3-->
+								<div class="choose_pricing_text">
+		
+									<div class="single_featured wow fadeIn" id="finalpre" data-wow-duration=".5s">
+										<img src="images/finalPre.png" alt=""style="width:250px"/>
+										<div class="featured_overlay" >
+											<div class="overlay_content" style="margin-top: 70px">
+												<div class="list-type1">
+												<ol>
+													<!-- <li><a href="Docs/finaldoc.pdf" downloaded><b>Download</b></a></li> -->
+												</ol>
+												</div>
+											</div>
+										</div>
+									</div>	
+		
+		
+		
+								</div>
+							</div>
+						</div>
+						
+						
+					   
+					</div>
+				</div>
+			</div>
+		</section>
+	
+
+	
+	
+	<section id="team" class="team">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+					<h2>MEET OUR CREW</h2>
+					<div class="separetor"></div>
+					<p></p>
+				</div>
+				
+				
+				
+					<div class="col-md-3 col-sm-6 col-xs-12"></div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="single_wedo wow fadeIn" data-wow-duration="1s">
+							<div class="single_team_img">
+								<img src="Docs/a.jpg" alt="" />
+								<div class="single_team_overlay text-center">
+									<!-- <a href="https://www.linkedin.com/in/lakmalr/"><i class="fa fa-linkedin"></i></a>
+									<a href="mailto:lakmal.r@sliit.lk?Subject=Malfore"><i class="fa fa-envelope"></i></a> -->
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>Miss.Shashika Lokuliyana</h4>
+								<p>Supervisor</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="single_wedo wow fadeIn" data-wow-duration="1.3s">
+							<div class="single_team_img">
+								<img src="images/" alt="" />
+								<div class="single_team_overlay text-center">
+									<!-- <a href="https://www.linkedin.com/in/amila-nuwan-senarathne-462b5a30/"><i class="fa fa-linkedin"></i></a>
+									<a href="mailto:amila.n@sliit.lk?Subject=Malfore"><i class="fa fa-envelope"></i></a> -->
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>Mrs. Thilmini Anuththara</h4>
+								<p>Co- Supervisor</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12"></div>
+			</div>
+			<div class="row">			
+							
+				
+
+				
+				<div class="main_team_content text-center">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="1.9s">
+							<div class="single_team_img">
+								<img src="Docs/Kavindu/kavindu.jpg" alt="" />
+								<div class="single_team_overlay text-center">
+									<!-- <a href="https://www.linkedin.com/in/mifrazmurthaja/"><i class="fa fa-linkedin"></i></a>
+									<a href="mailto:mmtech95@gmail.com?Subject=Malfore"><i class="fa fa-envelope"></i></a> -->
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>Kavindu Geesara</h4>
+								<p>IT16008106</p>
+								<br/>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="2.1s">
+							<div class="single_team_img">
+								<img src="Docs/Savidya/savidya.png" alt="" />
+								<div class="single_team_overlay text-center">
+									<a href="https://www.linkedin.com/in/benjamine-sahayanathan-856076141/"><i class="fa fa-linkedin"></i></a>
+									<a href="mailto:sahayanathanbenjamine.sb@gmail.com?Subject=Malfore"><i class="fa fa-envelope"></i></a>
+		
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>Savidya Wijewickrama</h4>
+								<p>IT1648638</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="2.4s">
+							<div class="single_team_img">
+								<img src="Docs/Nipun/nipun.jpg" alt="" />
+								<div class="single_team_overlay text-center">
+									<!-- <a href="https://www.linkedin.com/in/tharika-sewwandi-6ba021147/"><i class="fa fa-linkedin"></i></a>
+									<a href="mailto:tharikasewwandi92@gmail.com?Subject=Malfore"><i class="fa fa-envelope"></i></a> -->
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>Nipun Sachinthana</h4>
+								<p>IT16119390</p>
+								<br/>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="2.6s">
+							<div class="single_team_img">
+								<img src="Docs/Kaveen/kaveen.jpg" alt=""/>
+								<div class="single_team_overlay text-center">
+									<!-- <a href="https://www.linkedin.com/in/diluxana/"><i class="fa fa-linkedin"></i></a>
+									<a href="mailto:diluxanauthayakumar@gmail.com?Subject=Malfore"><i class="fa fa-envelope"></i></a> -->
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>Kaveen Gunawardhane</h4>
+								<p>IT16145276</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!---------------------------------------------------------------->
+	
+	
+	
+	
+	<!---------------------------------------------------------------->
+	
+		<!-- Contact form -->
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+							<h2>Get In Touch With Us</h2>
+							<div class="separetor"></div>
+							<p>We are here to help. Want to learn more about our project? Please get in touch, we'd love to hear from you!</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="messsage_contant">
+						<div class="col-md-7 col-sm-7">
+							<div class="single_message_left wow fadeIn" data-wow-duration="1s">
+								<form action="done.lk/submit" id="formid">
+										<!--<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">-->
+										  
+										 <div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" placeholder="Name" required="">
+												</div>
+											</div>
+											
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" placeholder="Email" required="">
+												</div>
+											</div>
+										 </div>
+										
+										  
+
+										  <div class="form-group">
+											<textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+										  </div>
+
+										  <div class="center-content">
+											<input type="submit" value="SUBMIT NOW" class="btn btn-lg">
+										  </div>
+										<!--</div>--> 
+								</form>
+							</div>
+						</div>
+						
+						<div class="col-md-5 col-sm-5">
+							<div class="single_message_right wow fadeIn" data-wow-duration="1s">
+								
+								<p>
+									<i class="fa fa-map-marker"></i> 
+									Sri Lanka Institute of Information Technology
+									<span>Malabe, Sri Lanka</span>
+								</p>
+								<p><i class="fa fa-envelope-o"></i><a href="mailto:reachsafety@gmail?Subject=Malfore" target="_top">reachsafety@gmail.com</a></p>								 -->
+							</div>
+						</div>
+					</div> <!-- End of messsage contant-->
+				</div>
+			</div>
+		</section>	
+	
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="main_footer text-center wow zoomIn" data-wow-duration="1s">
+						<p>Team iTraffic</a> 2019. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!-- STRAT SCROLL TO TOP -->
+	
+	<div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+	
+	
+	
+	
+	
+
+	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+	
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+	
+	<script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
+	
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+	
+	
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/wow/wow.min.js"></script>
+	<!--<script type="text/javascript" src="js/counterup/counterup.min.js"></script>-->
+	
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>-->
+	<!--<script type="text/javascript" src="js/counterup/jquery.counterup.min.js"></script>-->
+	
+	
+	<script type="text/javascript" src="js/isotop/isotope.min.js"></script>
+	<script type="text/javascript" src="js/isotop/isotop.function.js"></script>
+	
+	<script type="text/javascript" src="js/masonry/masonry.min.js"></script>
+	
+	<script type="text/javascript" src="js/mixitup/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/masonry/masonry.pkgd.min.js"></script>
+</body>
+</html>
